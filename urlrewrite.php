@@ -7,6 +7,14 @@ $arUrlRewrite=array (
     'PATH' => '/dokumenty/index.php',
     'SORT' => 100,
   ),
+  17 => 
+  array (
+    'CONDITION' => '#^/novosti/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/novosti/test.php',
+    'SORT' => 100,
+  ),
   1 => 
   array (
     'CONDITION' => '#^(.*)$#',
